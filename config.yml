@@ -1,0 +1,49 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+site_url: "https://YOUR-SITE.netlify.app"
+display_url: "https://YOUR-SITE.netlify.app"
+collections:
+  - name: "news"
+    label: "News & Updates"
+    folder: "content/news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish date", name: "date", widget: "datetime"}
+      - {label: "Category", name: "category", widget: "string", required: false}
+      - {label: "Summary", name: "summary", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured image", name: "image", widget: "image", required: false}
+      - {label: "Published", name: "published", widget: "boolean", default: true}
+  - name: "scholarships"
+    label: "Scholarships & Special Calls"
+    folder: "content/scholarships"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Deadline", name: "deadline", widget: "string", required: false}
+      - {label: "Country / Institution", name: "institution", widget: "string", required: false}
+      - {label: "Opportunity type", name: "type", widget: "string"}
+      - {label: "Summary", name: "summary", widget: "text"}
+      - {label: "Details", name: "body", widget: "markdown"}
+      - {label: "Application link", name: "link", widget: "string", required: false}
+      - {label: "Published", name: "published", widget: "boolean", default: true}
+  - name: "destinations"
+    label: "EduWisers Destinations"
+    files:
+      - label: "Country list"
+        name: "countries"
+        file: "content/destinations.json"
+        fields:
+          - label: "Countries"
+            name: "countries"
+            widget: "list"
+            fields:
+              - {label: "Country name", name: "name", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Active", name: "active", widget: "boolean", default: true}
