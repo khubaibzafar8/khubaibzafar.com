@@ -1,0 +1,29 @@
+{
+  "countries": [
+    {
+      "name": "Italy",
+      "description": "Admissions and scholarship pathways.",
+      "active": true
+    },
+    {
+      "name": "Germany",
+      "description": "Study opportunities and application guidance.",
+      "active": true
+    },
+    {
+      "name": "Austria",
+      "description": "University and programme exploration.",
+      "active": true
+    },
+    {
+      "name": "China",
+      "description": "International education opportunities.",
+      "active": true
+    },
+    {
+      "name": "Other European Countries",
+      "description": "Additional destinations introduced as opportunities are confirmed.",
+      "active": true
+    }
+  ]
+}
