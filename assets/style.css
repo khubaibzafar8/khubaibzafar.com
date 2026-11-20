@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--ink:#17241e;--muted:#63736a;--green:#145b3a;--green2:#1d7549;--lime:#dcebdc;--cream:#f7f8f3;--gold:#d4a84f;--line:#e2e9e1;--white:#fff;--navy:#142b4f}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font:16px/1.7 'DM Sans',sans-serif}h1,h2,h3,h4{font-family:Manrope,sans-serif;line-height:1.15;letter-spacing:-.035em}h1{font-size:clamp(2.7rem,6vw,5.3rem);margin:.35em 0}h2{font-size:clamp(2rem,4vw,3.2rem);margin:.3em 0 .55em}h3{font-size:1.3rem;margin:.25em 0 .55em}p{color:var(--muted);margin:.5em 0 1em}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:10;background:#fffffff2;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.navin{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font:800 1.25rem Manrope;color:var(--green);text-decoration:none;white-space:nowrap}.brand span{color:var(--gold)}.navlinks{display:flex;gap:18px;align-items:center;flex-wrap:wrap}.navlinks a,.socials a{font-size:.88rem;color:#34473c;text-decoration:none;font-weight:600}.navlinks a:hover,.socials a:hover{color:var(--green2)}.navbtn{display:none;border:1px solid var(--line);background:white;border-radius:9px;padding:9px 12px}.hero{background:radial-gradient(circle at 85% 15%,#dcebdc 0,transparent 28%),linear-gradient(135deg,#f4f8f2,#fff 60%);padding:90px 0 82px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:50px;align-items:center}.eyebrow{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--green2);font-weight:700}.hero p{font-size:1.16rem;max-width:700px}.hero-logo{width:min(280px,100%);max-height:230px;object-fit:contain;margin:auto;display:block}.hero-mark{border:1px solid var(--line);background:#ffffffb8;border-radius:28px;padding:30px;box-shadow:0 20px 60px #163f2412}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;padding:12px 19px;border-radius:9px;text-decoration:none;font-weight:700;font-size:.92rem;background:var(--green);color:white;border:1px solid var(--green)}.btn.alt{background:white;color:var(--green)}section{padding:76px 0}.soft{background:var(--cream)}.sectionhead{max-width:760px;margin-bottom:30px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.two{grid-template-columns:repeat(2,1fr)}.card{border:1px solid var(--line);border-radius:18px;padding:25px;background:white;box-shadow:0 8px 28px #142c1a08}.card .small,.small{font-size:.78rem;color:var(--green2);font-weight:700;letter-spacing:.05em;text-transform:uppercase}.card p{font-size:.94rem}.link{font-weight:700;color:var(--green);text-decoration:none}.link:hover{text-decoration:underline}.logo-row{display:flex;align-items:center;gap:20px}.logo-row img{width:82px;height:82px;object-fit:contain}.pill{display:inline-block;border:1px solid #c9ddcb;color:var(--green);background:#f4faf3;border-radius:999px;padding:5px 11px;font-size:.78rem;font-weight:700;margin:3px}.prose{max-width:820px}.prose p{font-size:1.04rem}.notice{background:#f2f7ef;border-left:4px solid var(--green2);padding:18px 22px;border-radius:8px;color:#3d5545}.list{padding-left:20px;color:var(--muted)}.list li{margin:.45em 0}.event{display:grid;grid-template-columns:115px 1fr;gap:20px;padding:22px 0;border-bottom:1px solid var(--line)}.event .num{font:800 1.6rem Manrope;color:#b6cbb8}.contactband{background:#143e2b;color:white;padding:64px 0}.contactband h2,.contactband p{color:white}.contactband p{opacity:.8}.socials{display:flex;gap:18px;flex-wrap:wrap;margin-top:20px}.socials a{color:white}.form{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px}.form label{display:block;font-size:.85rem;font-weight:700;color:#34473c}.form input,.form textarea,.form select{width:100%;padding:12px;border:1px solid #d8e2d8;border-radius:8px;margin-top:5px;font:inherit;background:white}.form textarea{min-height:125px}.form .full{grid-column:1/-1}.form button{cursor:pointer}.footer{padding:28px 0;background:#102b1e;color:#d8e5d9}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-size:.86rem}.foot a{color:#d8e5d9}.tagline{font:700 1.05rem Manrope;color:var(--green)}.brandbar{display:flex;gap:14px;align-items:center;margin-bottom:20px}.brandbar img{width:90px;height:90px;object-fit:contain}.brandbar h1{font-size:clamp(2.4rem,5vw,4.4rem);margin:.1em 0}.admin-note{font-size:.85rem;color:#758278}.gallery-placeholder{border:1px dashed #adc4b0;border-radius:16px;padding:28px;background:#f8fbf7;color:#607267;text-align:center}.stat{font:800 2rem Manrope;color:var(--green)}@media(max-width:900px){.navlinks{display:none;position:absolute;top:76px;left:0;right:0;background:white;padding:18px 22px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.navbtn{display:block}.hero-grid{grid-template-columns:1fr}.hero-mark{max-width:260px}.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){section{padding:55px 0}.grid,.two{grid-template-columns:1fr}.event{grid-template-columns:60px 1fr}.form{grid-template-columns:1fr}.form .full{grid-column:auto}.wrap{width:min(100% - 30px,1160px)}}
+
+/* Distinct identity systems for each section */
+:root{--accent:#16734a;--accent2:#d2a33a;--tint:#eaf5ee;--deep:#123b2a;--glow:#bfe7ce}
+body{background:linear-gradient(180deg,#fff 0%,#fff 42%,var(--tint) 100%);accent-color:var(--accent)}
+.nav{border-bottom:3px solid var(--accent);box-shadow:0 5px 24px color-mix(in srgb,var(--accent) 12%,transparent)}
+.brand{color:var(--accent)}
+.brand span{color:var(--accent2)}
+.navlinks a:hover,.socials a:hover,.link{color:var(--accent)}
+.hero{background:radial-gradient(ellipse at 88% 8%,var(--glow) 0,transparent 34%),radial-gradient(ellipse at 5% 95%,var(--tint) 0,transparent 38%),linear-gradient(125deg,var(--deep),var(--accent) 58%,var(--accent2));color:white;position:relative}
+.hero h1,.hero .eyebrow,.hero .tagline{color:white}
+.hero p{color:rgba(255,255,255,.88)}
+.hero .btn{background:var(--accent2);border-color:var(--accent2);color:#18251d}
+.hero .btn.alt{background:#ffffffeb;color:var(--deep);border-color:#ffffff}
+.hero-mark{background:#ffffffed;border:1px solid #ffffffaa;box-shadow:0 24px 70px #0002}
+.eyebrow,.card .small,.small{color:var(--accent)}
+.btn{background:var(--accent);border-color:var(--accent);box-shadow:0 7px 18px color-mix(in srgb,var(--accent) 22%,transparent)}
+.btn.alt{color:var(--accent);border-color:var(--accent)}
+section.soft{background:linear-gradient(135deg,var(--tint),#fff 75%)}
+.card{border-top:4px solid var(--accent);box-shadow:0 12px 34px color-mix(in srgb,var(--accent) 10%,transparent)}
+.card:hover{transform:translateY(-3px);transition:transform .2s ease,box-shadow .2s ease;box-shadow:0 18px 38px color-mix(in srgb,var(--accent) 17%,transparent)}
+.pill{border-color:color-mix(in srgb,var(--accent) 30%,white);color:var(--deep);background:var(--tint)}
+.notice{background:var(--tint);border-left-color:var(--accent);color:var(--deep)}
+.contactband{background:linear-gradient(115deg,var(--deep),var(--accent) 70%,var(--accent2))}
+.footer{background:var(--deep);border-top:5px solid var(--accent2)}
+.form input:focus,.form textarea:focus,.form select:focus{outline:3px solid color-mix(in srgb,var(--accent) 22%,transparent);border-color:var(--accent)}
+.stat{color:var(--accent)}
+.brandbar{padding:18px 22px;border-radius:22px;background:linear-gradient(100deg,var(--tint),#fff);border-left:6px solid var(--accent)}
+.brandbar img{width:104px;height:104px;padding:8px;border-radius:18px;background:white;box-shadow:0 8px 24px #00000012}
+.event .num{color:var(--accent)}
+/* Home: emerald, warm gold and midnight */
+.theme-home{--accent:#14734c;--accent2:#e4b64d;--tint:#eaf5ed;--deep:#102f27;--glow:#c5efd3}
+/* PIC: original forest green and white */
+.theme-pic{--accent:#08723b;--accent2:#b7d88b;--tint:#e8f5e9;--deep:#064522;--glow:#b5e6bd}
+/* EduWisers: navy, electric blue and warm gold */
+.theme-eduwisers{--accent:#173b78;--accent2:#f0b83e;--tint:#eaf0fb;--deep:#0c1e43;--glow:#b9d5ff}
+.theme-eduwisers .hero{background:radial-gradient(circle at 90% 10%,#4e8bd9 0,transparent 28%),linear-gradient(125deg,#091b3b,#173b78 58%,#e0a92f)}
+/* KB Hortica: leaf green, silver and fresh yellow */
+.theme-hortica{--accent:#24843e;--accent2:#e1c64c;--tint:#edf8e9;--deep:#174b2a;--glow:#c5ef9b}
+.theme-hortica .hero{background:radial-gradient(circle at 90% 5%,#d5f27e 0,transparent 28%),linear-gradient(125deg,#174b2a,#31944b 60%,#a7bd39)}
+/* C3: climate green, teal and bright leaf */
+.theme-c3{--accent:#138b54;--accent2:#a7d83f;--tint:#e6f7ef;--deep:#064b3d;--glow:#9ce4c0}
+.theme-c3 .hero{background:radial-gradient(circle at 90% 10%,#b5ed69 0,transparent 30%),linear-gradient(125deg,#064b3d,#0d8c62 60%,#7abf39)}
+/* Jhang Youth Alliance: royal blue and gold, with a red accent */
+.theme-jya{--accent:#124e9b;--accent2:#f5b51b;--tint:#edf3ff;--deep:#092b5c;--glow:#b9d2ff}
+.theme-jya .hero{background:radial-gradient(circle at 92% 8%,#f5c84c 0,transparent 27%),linear-gradient(125deg,#092b5c,#1255a4 65%,#bd2638)}
+.theme-jya .card{border-top-color:#f5b51b}
+.theme-jya .eyebrow{color:#ffe08a}
+/* UPG: international blue and sky */
+.theme-upg{--accent:#155a9c;--accent2:#68c4df;--tint:#e9f5fc;--deep:#0b3158;--glow:#a9e4f2}
+.theme-upg .hero{background:radial-gradient(circle at 88% 12%,#71c9e8 0,transparent 30%),linear-gradient(125deg,#08284b,#145c9b 62%,#20a2a1)}
+/* Speaking: plum, coral and amber */
+.theme-speaking{--accent:#7540a0;--accent2:#f19a65;--tint:#f5eefb;--deep:#35204e;--glow:#e3c9f5}
+.theme-speaking .hero{background:radial-gradient(circle at 90% 8%,#f6b08a 0,transparent 30%),linear-gradient(125deg,#35204e,#7540a0 62%,#c05c83)}
+/* News: deep teal and amber */
+.theme-news{--accent:#087e83;--accent2:#f0b33d;--tint:#e8f7f6;--deep:#073e48;--glow:#b2e8df}
+.theme-news .hero{background:radial-gradient(circle at 90% 10%,#f5d27b 0,transparent 28%),linear-gradient(125deg,#073e48,#087e83 65%,#c18b32)}
+/* Scholarships: indigo, emerald and gold */
+.theme-scholarships{--accent:#4055a5;--accent2:#d8a83f;--tint:#eef0fb;--deep:#1c2859;--glow:#c9d0ff}
+.theme-scholarships .hero{background:radial-gradient(circle at 90% 8%,#d7b9f1 0,transparent 28%),linear-gradient(125deg,#1c2859,#4055a5 62%,#12815b)}
+@media(max-width:900px){.navlinks{border-top:3px solid var(--accent)}}
